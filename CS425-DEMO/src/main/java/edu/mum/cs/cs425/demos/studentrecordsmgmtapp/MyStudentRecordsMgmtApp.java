@@ -33,7 +33,7 @@ public class MyStudentRecordsMgmtApp {
         studentList.add(new Student(110004, "Carlos", LocalDate.parse("08/22/2009", formatter)));
         studentList.add(new Student(110005, "Bob", LocalDate.parse("03/05/1990", formatter)));
 
-        printListOfStudents(studentList);
+        //printListOfStudents(studentList);
         getListOfPlatinumAlumniStudents(studentList).forEach(System.out::println);
     }
 }
