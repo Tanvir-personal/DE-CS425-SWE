@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="eRegistrar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/eRegistrar.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
