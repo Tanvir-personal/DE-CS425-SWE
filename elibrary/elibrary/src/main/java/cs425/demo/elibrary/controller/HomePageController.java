@@ -9,4 +9,5 @@ public class HomePageController {
     public String displayHomePage(){
         return "home/index";
     }
+	
 }
