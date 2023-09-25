@@ -1,0 +1,19 @@
+create database eregistrar;
+
+use  eregister;
+CREATE TABLE student (
+     id MEDIUMINT NOT NULL AUTO_INCREMENT,
+     student_number VARCHAR(30) NOT NULL,
+     first_name VARCHAR(30) NOT NULL,
+	 middle_name VARCHAR(30) NOT NULL,
+	 last_lame VARCHAR(30) NOT NULL,
+	 cgpa double NOT NULL,
+     enrollment_date DateTime,
+     is_international bool,
+     PRIMARY KEY (studentId)
+);
+                                                                
+INSERT INTO student (student_number, first_name, middle_name, last_lame, cgpa, enrollment_date, is_international)
+VALUES ('000-61-0001', 'John', 'Fisher', 'Doe', 3.98, '2017-05-12', true);
+
+select   * from   student
